@@ -1,0 +1,59 @@
+/* Container de la barre de navigation */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  /* Éléments de la barre de navigation */
+  .navbar-item {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Logo dans la barre de navigation */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style pour l'état de survol */
+  .navbar-item:hover,
+  .navbar-logo:hover {
+    color: #ddd;
+  }
+  
+  /* Style du bouton mobile */
+  .navbar-toggler {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: none;
+  }
+  
+  /* Style pour le menu déroulant */
+  .navbar-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  /* Style pour les éléments du menu déroulant */
+  .navbar-dropdown-item {
+    color: white;
+    padding: 1rem;
+    display: block;
+  }
+  
+  /* Style pour l'état de survol dans le menu déroulant */
+  .navbar-dropdown-item:hover {
+    background-color: #444;
+  }
+  
