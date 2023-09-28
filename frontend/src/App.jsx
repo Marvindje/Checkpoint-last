@@ -1,41 +1,36 @@
-import Counter from "./components/Counter";
-import logo from "./assets/logo.svg";
-
-import "./App.css";
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { ParallaxProvider } from "react-scroll-parallax";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ShopPage from "./pages/ShopPage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
+import CartPage from "./pages/CartPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import MenTshirtsPage from "./pages/MenTshirtsPage";
+import MenShirtsPage from "./pages/MenShirtsPage";
+import WomenTshirtsPage from "./pages/WomenTshirtsPage";
+import WomenShirtsPage from "./pages/WomenShirtsPage";
+import AccessoriesHandbagsPage from "./pages/AccessoriesHandbagsPage";
+import AccessoriesBackpacksPage from "./pages/AccessoriesBackpacksPage";
+import AccessoriesCapsPage from "./pages/AccessoriesCapsPage";
+import { FilterProvider } from "./FilterContext";
+import { Navbar } from "./components/Navbar";
+import AppRoutes from "./components/AppRoutes";
+import "./index.css";
 
 function App() {
+  const [cart, setCart] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React !</p>
-
-        <Counter />
-
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {" | "}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
+    <FilterProvider>
+      <ParallaxProvider>
+        <div className="App">
+          <Navbar />
+          <AppRoutes />
+        </div>
+      </ParallaxProvider>
+    </FilterProvider>
   );
 }
 

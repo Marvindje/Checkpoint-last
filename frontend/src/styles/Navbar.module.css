@@ -1,0 +1,25 @@
+.navbarWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.details {
+  text-decoration: none;
+  color: black;
+}
