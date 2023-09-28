@@ -5,7 +5,7 @@ const articles = [
     type: "t-shirt",
     description: "t-shirt blanc simple pour hommes",
     name: "T-shirt blanc M homme ",
-    image: "/articles/anomaly-WWesmHEgXDs-unsplash.jpg",
+    image: "https://i.ibb.co/xg46CtJ/anomaly-WWesm-HEg-XDs-unsplash.jpg",
   },
   {
     id: "2",
@@ -13,7 +13,7 @@ const articles = [
     type: "t-shirt",
     description: "t-shirt motifs pour hommes",
     name: "T-shirt motifs M homme ",
-    image: "/articles/bao-bao-TysFvOl78u0-unsplash.jpg",
+    image: "https://i.ibb.co/zGrK1pg/bao-bao-Tys-Fv-Ol78u0-unsplash.jpg",
   },
   {
     id: "3",
@@ -21,7 +21,8 @@ const articles = [
     type: "accessories",
     description: "Collier Argenté minimaliste pour femmes ",
     name: "Accessoire pour femmes , collier",
-    image: "/articles/camila-seves-espasandin-o4RpLOAF2OA-unsplash.jpg",
+    image:
+      "https://i.ibb.co/gy7Wds2/camila-seves-espasandin-o4-Rp-LOAF2-OA-unsplash.jpg",
   },
   {
     id: "4",
@@ -29,7 +30,7 @@ const articles = [
     type: "accessories",
     description: "Montre collection pour femmes couleur Vert",
     name: "Accessoire pour femmes , montre",
-    image: "/articles/lola-rose-840tjesh9ww-unsplash.jpg",
+    image: "https://i.ibb.co/k6tL2NQ/lola-rose-y-Sjsu-VQgju8-unsplash.jpg",
   },
   {
     id: "5",
@@ -37,7 +38,7 @@ const articles = [
     type: "accessories",
     description: "Sacs à main collection pour femmes ",
     name: "Sacs blue collection",
-    image: "/articles/kelsey-curtis-oB_d7fqHHiU-unsplash.jpg",
+    image: "https://i.ibb.co/Z8NQrBS/kelsey-curtis-o-B-d7fq-HHi-U-unsplash.jpg",
   },
   {
     id: "6",
@@ -45,7 +46,7 @@ const articles = [
     type: "accessories",
     description: "Bracelet diamants Femmes collection 2023",
     name: "Bracelet femmes en Diamants",
-    image: "/articles/jesus-eca-vr0q87dQQfA-unsplash.jpg",
+    image: "https://i.ibb.co/Y71sQjs/jesus-eca-q-M2yx-I-Pc-Ps-unsplash.jpg",
   },
   {
     id: "7",
@@ -53,7 +54,7 @@ const articles = [
     type: "shirts",
     description: "Pull oversize hommes/femmes en coton",
     name: "Pulls hommes / femmes  ",
-    image: "/articles/pesce-huang-vJ9DTh6zkR4-unsplash.jpg",
+    image: "https://i.ibb.co/VvrM7nZ/pesce-huang-v-J9-DTh6zk-R4-unsplash.jpg",
   },
   {
     id: "8",
@@ -61,7 +62,7 @@ const articles = [
     type: "shirts",
     description: "Pulls oversize hommes / femmes en coton et polyester",
     name: "Pull hommes / femmes",
-    image: "/articles/pesce-huang-zZ0x29L7kKw-unsplash.jpg",
+    image: "https://i.ibb.co/qkBSTfG/pesce-huang-z-Z0x29-L7k-Kw-unsplash.jpg",
   },
   {
     id: "9",
@@ -70,7 +71,7 @@ const articles = [
     description:
       "Notre collection de colliers et bracelets assortis en plaqués or",
     name: "Collier & Bracelets en chaînes plaqué or ",
-    image: "/articles/sama-hosseini-GtOo17K-vTg-unsplash.jpg",
+    image: "https://i.ibb.co/3Bhwwnq/sama-hosseini-h-ss-RPj8-UZo-unsplash.jpg",
   },
   {
     id: "10",
@@ -78,7 +79,8 @@ const articles = [
     type: "shirts",
     description: "Nos collections de gilets  cols roulés pour hommes / femmes ",
     name: "Pulls cols roulés couleurs pastels",
-    image: "/articles/sama-hosseini-N2ZqRuvNcUw-unsplash.jpg",
+    image:
+      "https://i.ibb.co/p0SL9DH/sama-hosseini-N2-Zq-Ruv-Nc-Uw-unsplash.jpg",
   },
   {
     id: "11",
@@ -86,7 +88,8 @@ const articles = [
     type: "shirts",
     description: "Pull col roulé oversize pour femmes ",
     name: "Pull col roulé couleur orange ",
-    image: "/articles/sama-hosseini-fSdBxY0NxVI-unsplash.jpg",
+    image:
+      "https://i.ibb.co/V3c8sKC/sama-hosseini-f-Sd-Bx-Y0-Nx-VI-unsplash.jpg",
   },
   {
     id: "12",
@@ -94,7 +97,7 @@ const articles = [
     type: "accessories",
     description: "Bracelet en chaîne or plaqué",
     name: "Bracelet en chaîne or plaqué",
-    image: "/articles/sama-hosseini-h_ssRPj8UZo-unsplash.jpg",
+    image: "https://i.ibb.co/zsgHwPf/sama-hosseini-Gt-Oo17-K-v-Tg-unsplash.jpg",
   },
   {
     id: "13",
@@ -102,7 +105,7 @@ const articles = [
     type: "shirts",
     description: "Lot de sacs et produits de beauté hommes",
     name: "Accessoires beauté et sacs à dos pour hommes",
-    image: "/articles/screen-post--Obuf8Pzs3w-unsplash.jpg",
+    image: "https://i.ibb.co/WV6Fnqw/screen-post-Obuf8-Pzs3w-unsplash.jpg",
   },
   {
     id: "14",
@@ -110,7 +113,8 @@ const articles = [
     type: "shirts",
     description: "Lot de robes second choix femmes",
     name: "Robes d'occasion de seconde main pour femmes",
-    image: "/articles/sergi-dolcet-escrig-D3Lma0WWx4A-unsplash.jpg",
+    image:
+      "https://i.ibb.co/7SFt373/sergi-dolcet-escrig-D3-Lma0-WWx4-A-unsplash.jpg",
   },
   {
     id: "15",
@@ -118,7 +122,8 @@ const articles = [
     type: "shirts",
     description: "pancho decolleté en filtes pour femmes ",
     name: "pancho en  filets ",
-    image: "/articles/milada-vigerova-p8Drpg_duLw-unsplash.jpg",
+    image:
+      "https://i.ibb.co/ccK3Lfx/milada-vigerova-p8-Drpg-du-Lw-unsplash.jpg",
   },
   {
     id: "16",
@@ -126,7 +131,8 @@ const articles = [
     type: "accessoires",
     description: "Sac 100% cuir à lanières pour hommes et femmes",
     name: "Sacs collection cuir",
-    image: "/articles/sindre-aalberg-q1Wd5MJvcKo-unsplash.jpg",
+    image:
+      "https://i.ibb.co/KxKJLmD/sindre-aalberg-q1-Wd5-MJvc-Ko-unsplash.jpg",
   },
   {
     id: "17",
@@ -134,7 +140,8 @@ const articles = [
     type: "accessories",
     description: "Notre collection de sacs à main pour femmes cuir ecaille",
     name: "Sacs cuir à écailles",
-    image: "/articles/trinh-minh-th-ScYGyGhA9HQ-unsplash.jpg",
+    image:
+      "https://i.ibb.co/LYLgCx4/trinh-minh-th-Sc-YGy-Gh-A9-HQ-unsplash.jpg",
   },
   {
     id: "18",
@@ -142,7 +149,8 @@ const articles = [
     type: "shirts",
     description: "Pulls pastelles pour femmes en cuir et coton",
     name: "Pulls couleurs pastelles",
-    image: "/articles/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg",
+    image:
+      "https://i.ibb.co/NWP5WCc/vonecia-carswell-0a-MMMUjii-EQ-unsplash.jpg",
   },
   {
     id: "19",
@@ -150,7 +158,7 @@ const articles = [
     type: "shirts",
     description: "Chapeaux Panama H/F Unisize",
     name: "Chapeaux Panama",
-    image: "/articles/warion-taipei-Gb3wBsGr_mQ-unsplash.jpg",
+    image: "https://i.ibb.co/0yG40PN/warion-taipei-Gb3w-Bs-Gr-m-Q-unsplash.jpg",
   },
 
   {
@@ -159,7 +167,7 @@ const articles = [
     type: "shirts",
     description: "Sac à dos cuir à lanières H/F Unisize",
     name: "Sacs en cuir hommes / femmes",
-    image: "/articles/sindre-aalberg-ajEo1YX-bfo-unsplash.jpg",
+    image: "https://i.ibb.co/PWJYLsj/sindre-aalberg-aj-Eo1-YX-bfo-unsplash.jpg",
   },
   {
     id: "21",
@@ -167,7 +175,8 @@ const articles = [
     type: "accessories",
     description: "lunettes de soleil H/F Unisize",
     name: "Lunettes style 3D yellow",
-    image: "/articles/osarugue-igbinoba-TWAh-7ImVYY-unsplash.jpg",
+    image:
+      "https://i.ibb.co/tY9B9Tj/osarugue-igbinoba-TWAh-7-Im-VYY-unsplash.jpg",
   },
   {
     id: "22",
@@ -175,7 +184,7 @@ const articles = [
     type: "accessories",
     description: "Casquette en daim bleu marine",
     name: "Casquette Homme ",
-    image: "/articles/michael-dolejs-b9hqQkKCnqw-unsplash.jpg",
+    image: "https://i.ibb.co/XssQJxp/michael-dolejs-b9hq-Qk-KCnqw-unsplash.jpg",
   },
   {
     id: "23",
@@ -183,7 +192,7 @@ const articles = [
     type: "accessories",
     description: "Pendentif en or ",
     name: "Pendentif Or",
-    image: "/articles/eve-maier-7uQQHORcTpc-unsplash.jpg",
+    image: "https://i.ibb.co/jZ7FrmH/eve-maier-7u-QQHORc-Tpc-unsplash.jpg",
   },
   {
     id: "24",
@@ -192,7 +201,8 @@ const articles = [
     description:
       "t-shirt blanc polyester pour hommes / femmes oversize 100% polyester ",
     name: "The White Tee",
-    image: "/articles/force-majeure-00tlC0Clfrs-unsplash.jpg",
+    image:
+      "https://i.ibb.co/WpFCcrS/florencia-simonini-PDZAMYvdu-Vk-unsplash.jpg",
   },
   {
     id: "25",
@@ -200,7 +210,8 @@ const articles = [
     type: "shirts",
     description: "Sac à main pour femmes en cuir bleu clair   ",
     name: "Sac à main ",
-    image: "/articles/ehimetalor-akhere-unuabona-lq19sZ5pQ-c-unsplash.jpg",
+    image:
+      "https://i.ibb.co/xshQBbp/ehimetalor-akhere-unuabona-f-GATCEs-Rp0-Q-unsplash.jpg",
   },
   {
     id: "26",
@@ -208,7 +219,7 @@ const articles = [
     type: "shirts",
     description: "Chemises navy blue pour hommes   ",
     name: "Lot de 4 chemises ",
-    image: "/articles/lasse-jensen-B1Le_4XqOS8-unsplash.jpg",
+    image: "https://i.ibb.co/zxBhJgd/lasse-jensen-B1-Le-4-Xq-OS8-unsplash.jpg",
   },
 ];
 

@@ -1,5 +1,3 @@
-require("./user.model");
-require("./category.model");
 require("./article.model");
 
 const { sequelize } = require("../../config/db");
