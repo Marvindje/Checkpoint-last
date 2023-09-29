@@ -48,7 +48,7 @@ function AppRoutes() {
   ) : (
     <>
       {renderSpinner}
-      {/* <Navbar /> */}
+      <Navbar /> 
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
