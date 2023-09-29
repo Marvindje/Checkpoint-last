@@ -7,6 +7,7 @@ import ShopPage from "../pages/ShopPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
 import CartPage from "../pages/CartPage";
 import CheckoutPage from "../pages/CheckoutPage";
+import MenSweatshirtsPage from "../pages/MenSweatshirts";
 import MenTshirtsPage from "../pages/MenTshirtsPage";
 import MenShirtsPage from "../pages/MenShirtsPage";
 import WomenTshirtsPage from "../pages/WomenTshirtsPage";
@@ -56,6 +57,7 @@ function AppRoutes() {
         <Route path="/products/:id" element={<ProductDetailsPage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/hommes/sweatshirts" element={<MenSweatshirtsPage />} />
         <Route path="/hommes/tshirts" element={<MenTshirtsPage />} />
         <Route path="/hommes/chemises" element={<MenShirtsPage />} />
         <Route path="/femmes/tshirts" element={<WomenTshirtsPage />} />

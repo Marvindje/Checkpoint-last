@@ -90,18 +90,8 @@ export function Navbar() {
           >
             Casquettes
           </Link>
-          <Link
-            to="/accessoires/bijoux"
-            className="block text-white hover:text-blue-500 transition-all duration-200 transform hover:scale-110"
-          >
-            Bijoux
-          </Link>
-          <Link
-            to="/accessoires/lunettes"
-            className="block text-white hover:text-blue-500 transition-all duration-200 transform hover:scale-110"
-          >
-            Lunettes
-          </Link>
+         
+         
         </div>
       );
     }
