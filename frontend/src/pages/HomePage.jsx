@@ -34,13 +34,13 @@ function Homepage() {
         to="/products"
         className="inline-block mt-4 bg-white text-gray-700 px-6 py-3 rounded-full font-bold text-xl hover:bg-gray-700 hover:text-white transition-colors duration-300"
       >
-        Shop Now
+        Closet
       </Link>
       <Link
         to="/about"
         className="inline-block mt-4 bg-white text-gray-700 px-6 py-3 rounded-full font-bold text-xl hover:bg-gray-700 hover:text-white transition-colors duration-300"
       >
-        Learn More
+        Infos
       </Link>
     </div>
   );

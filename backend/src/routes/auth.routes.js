@@ -5,7 +5,12 @@ const authRoutes = express.Router();
 
 authRoutes
   .post("/register", AuthController.register)
-  .post("/login", AuthController.login);
+  .post("/login", AuthController.login)
+ // .get("/logout", (req, res) => {
+    // Supprimer le token JWT du cookie
+   // res.clearCookie('token');
+    //res.status(200).json({ message: 'Déconnecté avec succès' });
+  //});
 
 module.exports = {
   authRoutes,

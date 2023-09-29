@@ -17,11 +17,17 @@ import AccessoriesBackpacksPage from "../pages/AccessoriesBackpacksPage";
 import AccessoriesCapsPage from "../pages/AccessoriesCapsPage";
 import Login from "../pages/Login";
 import { Navbar } from "./Navbar";
+import '../styles/Loader.css'; // Import the new CSS file
 
 function AppRoutes() {
   const { isLoged } = useUserContext();
+  const [showSpinner, setShowSpinner] = useState(true);
 
-  const [showSpinner, setShowSpinner] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setShowSpinner(false); // Hide spinner after 3 seconds
+    }, 3000);
+  }, []);
 
   const handleAuthSuccess = async () => {
     setShowSpinner(true);
@@ -37,7 +43,10 @@ function AppRoutes() {
 
   const renderSpinner = showSpinner && (
     <div className="spinner-container">
-      <div className="spinner" />
+      <div className="loading">
+        <div className="d1"></div>
+        <div className="d2"></div>
+      </div>
     </div>
   );
 
@@ -49,7 +58,7 @@ function AppRoutes() {
   ) : (
     <>
       {renderSpinner}
-      <Navbar /> 
+      <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -62,18 +71,9 @@ function AppRoutes() {
         <Route path="/hommes/chemises" element={<MenShirtsPage />} />
         <Route path="/femmes/tshirts" element={<WomenTshirtsPage />} />
         <Route path="/femmes/chemises" element={<WomenShirtsPage />} />
-        <Route
-          path="/accessoires/sacsamain"
-          element={<AccessoriesHandbagsPage />}
-        />
-        <Route
-          path="/accessoires/sacsados"
-          element={<AccessoriesBackpacksPage />}
-        />
-        <Route
-          path="/accessoires/casquettes"
-          element={<AccessoriesCapsPage />}
-        />
+        <Route path="/accessoires/sacsamain" element={<AccessoriesHandbagsPage />} />
+        <Route path="/accessoires/sacsados" element={<AccessoriesBackpacksPage />} />
+        <Route path="/accessoires/casquettes" element={<AccessoriesCapsPage />} />
         <Route path="/*" element={<>404</>} />
       </Routes>
     </>
